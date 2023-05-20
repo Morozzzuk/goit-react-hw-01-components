@@ -1,4 +1,4 @@
-@import-normalize; /* bring in normalize.css styles */
+/* @import-normalize; bring in normalize.css styles */
 
 * {
   box-sizing: border-box;
@@ -38,4 +38,6 @@ ul {
   --primary: #858585;
   --accent: #000000;
   --white: #ffffff;
+  --red: #ff0000;
+  --green: #008000;
 }
