@@ -20,7 +20,6 @@ export const Title = styled.h2`
 export const StatList = styled.ul`
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   padding: 5px;
 
   border-radius: 5px;
