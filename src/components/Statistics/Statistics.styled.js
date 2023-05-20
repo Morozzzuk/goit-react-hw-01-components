@@ -3,10 +3,10 @@ import styled from '@emotion/styled';
 export const Section = styled.section`
   width: 350px;
   margin: 0 auto;
-  margin-bottom: 70px;
-
+  margin-bottom: 50px;
+  border: 1px solid var(--accent);
   border-radius: 10px;
-  box-shadow: -2px -2px 5px var(--white), 3px 3px 5px rgba(0, 0, 0, 0, 5);
+  box-shadow: -2px -2px 5px var(--white), 3px 3px 5px rgba(0, 0, 0, 0.1);
 `;
 
 export const Title = styled.h2`
@@ -22,6 +22,8 @@ export const StatList = styled.ul`
   justify-content: center;
   /* align-items: center; */
   padding: 5px;
+
+  border-radius: 5px;
 `;
 
 export const StatItem = styled.li`
@@ -29,9 +31,8 @@ export const StatItem = styled.li`
   text-align: center;
   flex-basis: calc(100% / 5);
 
+  border: 1px solid var(--accent);
   border-radius: 8px;
-  box-shadow: inset -2px -2px 5px var(--white),
-    inset 3px 3px 5px rgba(0, 0, 0, 0, 5);
 `;
 
 export const StatLabel = styled.span`

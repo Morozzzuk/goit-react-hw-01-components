@@ -4,7 +4,7 @@ export const ProfileCard = styled.div`
   width: 350px;
   margin: 50px auto;
   padding: 20px;
-
+  border: 1px solid var(--accent);
   border-radius: 8px;
   box-shadow: -2px -2px 5px var(--white), 3px 3px 5px rgba(0, 0, 0, 0.1);
 `;
